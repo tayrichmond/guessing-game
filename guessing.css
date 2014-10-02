@@ -1,0 +1,35 @@
+#knight {
+	height: 100px;
+}
+
+#weapons {
+	width: 56em;
+	background-color: purple;
+	color: white;
+	padding: 1em;
+	text-align: center;
+	border: none;
+}
+
+.effect, .noEffect {
+	padding: 1em;
+}
+
+img {
+	padding: 3em 3em 3em 15em;
+	position: relative;
+}
+
+.uneffected {
+	background-color: red;
+	padding: 1em;
+	color: black;
+	pointer-events: none;
+}
+
+.effected {
+	background-color: green;
+	padding: 1em;
+	color: yellow;
+	pointer-events: none;
+}
